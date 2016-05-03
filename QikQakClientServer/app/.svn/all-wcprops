@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sp15-cs241/!svn/ver/13636/smahaja2/QikQakClientServer/app
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/app/.gitignore
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/app/proguard-rules.pro
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/app/build.gradle
+END

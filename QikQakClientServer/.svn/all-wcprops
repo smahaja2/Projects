@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sp15-cs241/!svn/ver/13636/smahaja2/QikQakClientServer
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/.gitignore
+END
+gradlew
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/gradlew
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/local.properties
+END
+gradle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/gradle.properties
+END
+gradlew.bat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/gradlew.bat
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/build.gradle
+END
+settings.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sp15-cs241/!svn/ver/13388/smahaja2/QikQakClientServer/settings.gradle
+END

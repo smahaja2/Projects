@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sp15-cs241/!svn/ver/19031/smahaja2/Streamer/app
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sp15-cs241/!svn/ver/18827/smahaja2/Streamer/app/.gitignore
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sp15-cs241/!svn/ver/18827/smahaja2/Streamer/app/proguard-rules.pro
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sp15-cs241/!svn/ver/18827/smahaja2/Streamer/app/build.gradle
+END
