@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/smahaja2/Final3</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final3/editRestrictions.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final3/findUser (1).ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final3/index.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final3/login.ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final3/myRecipes (1).ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final3/profile (1).ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final3/recipe.ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final3/search.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final3/searchResults.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final3/signup.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final3/uploadRecipe (1).ejs</path>
+<path
+   kind="file"
+   action="D">/smahaja2/FinalProject/Final Proposal.pdf</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="10485">
+<author>smahaja2</author>
+<date>2015-11-20T09:44:12.832060Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/smahaja2/FinalProject/Proposal.pdf</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="10065">
+<author>smahaja2</author>
+<date>2015-11-13T16:12:17.077253Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/smahaja2/FinalProject</path>
+<path
+   kind="file"
+   action="A">/smahaja2/FinalProject/Final Proposal.pdf</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/smahaja2/Final1</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/SmartChef Manual Testing Plan.pdf</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/auth.js</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final1/database.js</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final1/findUser.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final1/index.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final1/login.ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/myRecipes.ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/package.json</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/passport.js</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/profile.ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/routes.js</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final1/server.js</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final1/signup.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final1/uploadRecipe.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final1/user.js</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment2.1</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment2.1/.idea</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.1/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.1/.idea/CSair.iml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.1/.idea/modules.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.1/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.1/cmi_hub.json</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.1/data.json</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.1/graph.py</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.1/graphtest.py</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.1/menu.py</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.1/readJSON.py</path>
+</paths>
+<msg>assignment 2.1
+</msg>
+</logentry>
+<logentry
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/smahaja2/Final0</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/auth.js</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/database.js</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/index.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/login.ejs</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final0/package.json</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final0/passport.js</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Final0/profile.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/routes.js</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/server.js</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/signup.ejs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Final0/user.js</path>
+</paths>
+<msg>Final project week 1
+</msg>
+</logentry>
+<logentry
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment2.0</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment2.0/CSair</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment2.0/CSair/.idea</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.0/CSair/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.0/CSair/.idea/CSair.iml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.0/CSair/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.0/CSair/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.0/CSair/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.0/CSair/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.0/CSair/data.json</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.0/CSair/graph.py</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment2.0/CSair/graphtest.py</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.0/CSair/importJSON.py</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment2.0/CSair/menu.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6146">
+<author>smahaja2</author>
+<date>2015-09-27T01:52:15.129750Z</date>
+<paths>
+<path
+   action="D"
+   kind="file">/smahaja2/grocery/list3.txt.txt</path>
+</paths>
+<msg>Discovered that I want to be a vegetarian</msg>
+</logentry>
+<logentry
+   revision="6145">
+<author>smahaja2</author>
+<date>2015-09-27T01:51:36.349246Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/smahaja2/grocery/list3.txt.txt</path>
+</paths>
+<msg>Added list of meats</msg>
+</logentry>
+<logentry
+   revision="6144">
+<author>smahaja2</author>
+<date>2015-09-27T01:49:45.353897Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/smahaja2/grocery/list2.txt.txt</path>
+</paths>
+<msg>Emphasize importance of carrot
+</msg>
+</logentry>
+<logentry
+   revision="6143">
+<author>smahaja2</author>
+<date>2015-09-27T01:49:01.463617Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/smahaja2/grocery/list2.txt.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6142">
+<author>smahaja2</author>
+<date>2015-09-27T01:48:07.125608Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/smahaja2/grocery/list2.txt.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6141">
+<author>smahaja2</author>
+<date>2015-09-27T01:46:01.625826Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/smahaja2/grocery/list1.txt.txt</path>
+<path
+   kind="file"
+   action="M">/smahaja2/grocery/list2.txt.txt</path>
+</paths>
+<msg>Added more important vegetable</msg>
+</logentry>
+<logentry
+   revision="6140">
+<author>smahaja2</author>
+<date>2015-09-27T01:44:18.377623Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/smahaja2/grocery/list1.txt.txt</path>
+</paths>
+<msg>Added more important vegetable</msg>
+</logentry>
+<logentry
+   revision="6139">
+<author>smahaja2</author>
+<date>2015-09-27T01:41:57.024916Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/smahaja2/grocery/list1.txt.txt</path>
+</paths>
+<msg>Need to buy more fruit</msg>
+</logentry>
+<logentry
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment0</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment0/HW0</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/.classpath</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment0/HW0/.idea</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/.idea/.name</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment0/HW0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/.project</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment0/HW0/.settings</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/COPYING</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment0/HW0/bin</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment0/HW0/bin/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment0/HW0/bin/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment0/HW0/bin/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment0/HW0/doc</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/doc/README</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/doc/toDoList</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/javadoc.xml</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment0/HW0/src</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment0/HW0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment0/HW0/src/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment0/HW0/src/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/HW0/useOutput.txt</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/README.txt</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment0/tcpclient.cpp.txt</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment0/tcpclient.h.txt</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/grocery</path>
+<path
+   action="A"
+   kind="file">/smahaja2/grocery/list1.txt.txt</path>
+<path
+   kind="file"
+   action="A">/smahaja2/grocery/list2.txt.txt</path>
+</paths>
+<msg>Turning in Assignment 0</msg>
+</logentry>
+<logentry
+   revision="4947">
+<author>smahaja2</author>
+<date>2015-09-18T15:33:31.393284Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/smahaja2/Assignment1.1/src/Fairy.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="4941">
+<author>smahaja2</author>
+<date>2015-09-18T14:59:01.161549Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/Doxyfile</path>
+</paths>
+<msg>done</msg>
+</logentry>
+<logentry
+   revision="4940">
+<author>smahaja2</author>
+<date>2015-09-18T14:52:28.780490Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/TestingPlan.pdf</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment1.1</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment1.1/.idea</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/.idea/.name</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/.idea/compiler.xml</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.1/.idea/copyright</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/chess_week1.iml</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.1/out</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment1.1/out/production</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment1.1/out/production/chess_week1</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/out/production/chess_week1/Bishop.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/out/production/chess_week1/Board.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/out/production/chess_week1/Game.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/out/production/chess_week1/King.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/out/production/chess_week1/Knight.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/out/production/chess_week1/Pawn.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/out/production/chess_week1/Piece.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/out/production/chess_week1/PieceTest.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/out/production/chess_week1/Player.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/out/production/chess_week1/Queen.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/out/production/chess_week1/Rook.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/out/production/chess_week1/Square.class</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.1/src</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Board.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Fairy.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Game.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Gnome.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/src/King.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/src/Knight.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/src/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/src/Piece.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.1/src/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Player.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Queen.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Rook.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.1/src/Square.java</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.1/src/tests</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment1.0</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/.idea/.name</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/chess_week1.iml</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.0/out</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.0/out/production</path>
+<path
+   action="A"
+   kind="dir">/smahaja2/Assignment1.0/out/production/chess_week1</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/out/production/chess_week1/Bishop.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/out/production/chess_week1/Board.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/out/production/chess_week1/Game.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/out/production/chess_week1/King.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/out/production/chess_week1/Knight.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/out/production/chess_week1/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/out/production/chess_week1/Piece.class</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/out/production/chess_week1/PieceTest.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/out/production/chess_week1/Player.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/out/production/chess_week1/Queen.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/out/production/chess_week1/Rook.class</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/out/production/chess_week1/Square.class</path>
+<path
+   kind="dir"
+   action="A">/smahaja2/Assignment1.0/src</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/Board.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/src/Game.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/src/King.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/src/Knight.java</path>
+<path
+   action="A"
+   kind="file">/smahaja2/Assignment1.0/src/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/Piece.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/Player.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/Queen.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/Rook.java</path>
+<path
+   kind="file"
+   action="A">/smahaja2/Assignment1.0/src/Square.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="163">
+<author>root</author>
+<date>2015-08-25T21:58:57.947348Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/smahaja2</path>
+</paths>
+<msg>created directory smahaja2</msg>
+</logentry>
+</log>

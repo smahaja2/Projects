@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/fa15-cs242/smahaja2">
+<entry
+   kind="dir">
+<name>Assignment0</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.classpath</name>
+<size>307</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/.idea</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.idea/.name</name>
+<size>110</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/.idea/copyright</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.idea/misc.xml</name>
+<size>2828</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.idea/modules.xml</name>
+<size>144</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.idea/vcs.xml</name>
+<size>164</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.idea/workspace.xml</name>
+<size>22034</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.project</name>
+<size>362</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/.settings</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/LANSimulation.class</name>
+<size>4544</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/Network.class</name>
+<size>7873</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/internals</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Node.class</name>
+<size>1218</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Packet.class</name>
+<size>717</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/tests</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</name>
+<size>1082</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests.class</name>
+<size>9528</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/doc</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/LANSimulation.java</name>
+<size>5845</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/Network.java</name>
+<size>13400</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/internals</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Node.java</name>
+<size>2406</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/tests</name>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10293</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/README.txt</name>
+<size>274</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/tcpclient.cpp.txt</name>
+<size>11740</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/tcpclient.h.txt</name>
+<size>1266</size>
+<commit
+   revision="6138">
+<author>smahaja2</author>
+<date>2015-09-27T01:37:48.997900Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea</name>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/.name</name>
+<size>8</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea/copyright</name>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/misc.xml</name>
+<size>999</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/modules.xml</name>
+<size>262</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/vcs.xml</name>
+<size>167</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/workspace.xml</name>
+<size>36684</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chess_week1.iml</name>
+<size>846</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/out</name>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/out/production</name>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/out/production/chess_week1</name>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Bishop.class</name>
+<size>562</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Board.class</name>
+<size>605</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Game.class</name>
+<size>1645</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/King.class</name>
+<size>687</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Knight.class</name>
+<size>642</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Pawn.class</name>
+<size>668</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Piece.class</name>
+<size>1170</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/PieceTest.class</name>
+<size>1289</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Player.class</name>
+<size>1553</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Queen.class</name>
+<size>593</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Rook.class</name>
+<size>568</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/out/production/chess_week1/Square.class</name>
+<size>810</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src</name>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Bishop.java</name>
+<size>478</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Board.java</name>
+<size>375</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Game.java</name>
+<size>1167</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/King.java</name>
+<size>558</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Knight.java</name>
+<size>473</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Pawn.java</name>
+<size>585</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Piece.java</name>
+<size>981</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/PieceTest.java</name>
+<size>861</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Player.java</name>
+<size>1555</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Queen.java</name>
+<size>549</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Rook.java</name>
+<size>521</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Square.java</name>
+<size>689</size>
+<commit
+   revision="4828">
+<author>smahaja2</author>
+<date>2015-09-18T05:58:07.270426Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="4947">
+<author>smahaja2</author>
+<date>2015-09-18T15:33:31.393284Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea</name>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/.name</name>
+<size>8</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea/copyright</name>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/misc.xml</name>
+<size>999</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/modules.xml</name>
+<size>262</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/vcs.xml</name>
+<size>167</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/workspace.xml</name>
+<size>36277</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="4941">
+<author>smahaja2</author>
+<date>2015-09-18T14:59:01.161549Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/TestingPlan.pdf</name>
+<size>269122</size>
+<commit
+   revision="4940">
+<author>smahaja2</author>
+<date>2015-09-18T14:52:28.780490Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chess_week1.iml</name>
+<size>846</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out</name>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out/production</name>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out/production/chess_week1</name>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Bishop.class</name>
+<size>562</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Board.class</name>
+<size>605</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Game.class</name>
+<size>1645</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/King.class</name>
+<size>687</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Knight.class</name>
+<size>642</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Pawn.class</name>
+<size>668</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Piece.class</name>
+<size>1170</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/PieceTest.class</name>
+<size>1289</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Player.class</name>
+<size>1553</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Queen.class</name>
+<size>593</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Rook.class</name>
+<size>568</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/chess_week1/Square.class</name>
+<size>810</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="4947">
+<author>smahaja2</author>
+<date>2015-09-18T15:33:31.393284Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Bishop.java</name>
+<size>1389</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Board.java</name>
+<size>3404</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Fairy.java</name>
+<size>877</size>
+<commit
+   revision="4947">
+<author>smahaja2</author>
+<date>2015-09-18T15:33:31.393284Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Game.java</name>
+<size>801</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Gnome.java</name>
+<size>1373</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/King.java</name>
+<size>1040</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Knight.java</name>
+<size>968</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pawn.java</name>
+<size>1049</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Piece.java</name>
+<size>1365</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/PieceTest.java</name>
+<size>901</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Player.java</name>
+<size>876</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Queen.java</name>
+<size>1043</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Rook.java</name>
+<size>1012</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Square.java</name>
+<size>740</size>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/tests</name>
+<commit
+   revision="4937">
+<author>smahaja2</author>
+<date>2015-09-18T14:44:41.326420Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/CSair</name>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/CSair/.idea</name>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/.idea/CSair.iml</name>
+<size>284</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/.idea/misc.xml</name>
+<size>686</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/.idea/modules.xml</name>
+<size>262</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/.idea/vcs.xml</name>
+<size>164</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/.idea/workspace.xml</name>
+<size>24052</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/data.json</name>
+<size>16828</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/graph.py</name>
+<size>2444</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/graphtest.py</name>
+<size>956</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/importJSON.py</name>
+<size>1471</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSair/menu.py</name>
+<size>512</size>
+<commit
+   revision="6782">
+<author>smahaja2</author>
+<date>2015-10-02T19:34:31.770813Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea</name>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/CSair.iml</name>
+<size>284</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/misc.xml</name>
+<size>686</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/modules.xml</name>
+<size>262</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/vcs.xml</name>
+<size>164</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/workspace.xml</name>
+<size>31176</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/cmi_hub.json</name>
+<size>1104</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/data.json</name>
+<size>16828</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/graph.py</name>
+<size>3939</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/graphtest.py</name>
+<size>960</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/menu.py</name>
+<size>3249</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/readJSON.py</name>
+<size>545</size>
+<commit
+   revision="9656">
+<author>smahaja2</author>
+<date>2015-11-06T15:21:46.959111Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Final0</name>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/auth.js</name>
+<size>282</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/database.js</name>
+<size>61</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/index.ejs</name>
+<size>917</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/login.ejs</name>
+<size>1304</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/package.json</name>
+<size>639</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/passport.js</name>
+<size>7945</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/profile.ejs</name>
+<size>1183</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/routes.js</name>
+<size>3505</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/server.js</name>
+<size>1636</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/signup.ejs</name>
+<size>1313</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final0/user.js</name>
+<size>878</size>
+<commit
+   revision="9655">
+<author>smahaja2</author>
+<date>2015-11-06T15:18:53.008438Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Final1</name>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/SmartChef Manual Testing Plan.pdf</name>
+<size>3617227</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/auth.js</name>
+<size>282</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/database.js</name>
+<size>61</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/findUser.ejs</name>
+<size>1261</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/index.ejs</name>
+<size>917</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/login.ejs</name>
+<size>1304</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/myRecipes.ejs</name>
+<size>1318</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/package.json</name>
+<size>639</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/passport.js</name>
+<size>9818</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/profile.ejs</name>
+<size>1455</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/routes.js</name>
+<size>6695</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/server.js</name>
+<size>1636</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/signup.ejs</name>
+<size>1313</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/uploadRecipe.ejs</name>
+<size>5066</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final1/user.js</name>
+<size>878</size>
+<commit
+   revision="10064">
+<author>smahaja2</author>
+<date>2015-11-13T16:09:01.714345Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Final3</name>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/editRestrictions.ejs</name>
+<size>3284</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/findUser (1).ejs</name>
+<size>1261</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/index.ejs</name>
+<size>917</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/login.ejs</name>
+<size>1304</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/myRecipes (1).ejs</name>
+<size>1598</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/profile (1).ejs</name>
+<size>1719</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/recipe.ejs</name>
+<size>3084</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/search.ejs</name>
+<size>3583</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/searchResults.ejs</name>
+<size>1598</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/signup.ejs</name>
+<size>1313</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Final3/uploadRecipe (1).ejs</name>
+<size>5085</size>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>FinalProject</name>
+<commit
+   revision="10522">
+<author>smahaja2</author>
+<date>2015-11-20T16:03:19.010391Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>FinalProject/Proposal.pdf</name>
+<size>148700</size>
+<commit
+   revision="10485">
+<author>smahaja2</author>
+<date>2015-11-20T09:44:12.832060Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>grocery</name>
+<commit
+   revision="6146">
+<author>smahaja2</author>
+<date>2015-09-27T01:52:15.129750Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>grocery/list1.txt.txt</name>
+<size>61</size>
+<commit
+   revision="6141">
+<author>smahaja2</author>
+<date>2015-09-27T01:46:01.625826Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>grocery/list2.txt.txt</name>
+<size>83</size>
+<commit
+   revision="6144">
+<author>smahaja2</author>
+<date>2015-09-27T01:49:45.353897Z</date>
+</commit>
+</entry>
+</list>
+</lists>
