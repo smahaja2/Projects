@@ -1,0 +1,1 @@
+web: gunicorn notmailquail.wsgi --log-file - 

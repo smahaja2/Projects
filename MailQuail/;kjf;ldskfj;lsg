@@ -1,0 +1,15 @@
+ username |    password    |   name   | number | last 
+----------+----------------+----------+--------+------
+ John     | fdgh           | John     |     10 |   10
+ Bob      | ffd            | Bob      |     10 |   10
+ Ricky    | TrapLord       | Ricky    |      0 |    0
+ Ricky    | Bernstein      | Ricky    |      0 |    0
+ Fdres    | fdgh           | Fdres    |      0 |    0
+ Fdr      | asdf           | Fdr      |      0 |    0
+ Ricky2   | RICKYISSOSMART | Ricky2   |      0 |    0
+ User     | hello          | User     |      0 |    0
+ User     | hello1         | User     |      0 |    0
+ testrick | test           | testrick |      0 |    0
+ Atul     | fddd           | Atul     |      0 |    0
+(11 rows)
+

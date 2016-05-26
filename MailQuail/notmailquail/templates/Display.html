@@ -1,0 +1,61 @@
+<!--{% if delete %}
+      Your account has been deleted
+{% elif change %}
+    Hello {{ name }}
+    <form action="/change/" method="post">
+        {% csrf_token %}
+        {% if error %}
+            <p style="color: red;">Put in a valid username/password combination</p>
+        {% endif %}
+        <label for="username">Username </label>
+        <input  ><br>
+        <label for="password">Old Password </label>
+        <input id="oldpassword" type="password" name="oldpassword" value=""><br>
+        <label for="password">New Password </label>
+        <input id="newpassword" type="password" name="newpassword" value=""><br>
+        <input type="submit" value="OK"> 
+    </form>
+</ul>
+{% endif %}
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        {% if delete %}
+         <h2>Your account has been deleted</h2>
+        {% elif change %}
+            <h2>Hello {{ name }}</h2>
+          </div>
+          
+          <form role="form" action="/change/" method="post">
+                {% csrf_token %}
+                {% if error %}
+                <p style="color: red;">Put in a valid username/password combination</p>
+                {% endif %}
+                
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
+            </div>
+            <div class="form-group">
+              <label for="oldpassword">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter password" id="oldpassword" name="oldpassword" >
+            </div>
+            <div class="form-group">
+              <label for="newpassword">Password:</label>
+              <input class="form-control" placeholder="Enter password" id="newpassword" type="password" name="newpassword" >
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg ">Okay, I'm done.</button>
+        {% endif %}     
+      </form>  
+    </div>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+</html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/main.css">
+</head>
+<body>
+    <script type="text/javascript">
+        function show(divID) {
+            var item = document.getElementById(divID);
+            var table = document.getElementById('mail');
+            if (item) {
+                    item.className=(item.className=='hide')?'show':'hide';
+                    table.className=(item.className=='hide')?'show':'hide';
+            }
+        }
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
+    <div id="main">
+        <div id="center">
+            <div border="1" id="mail" class="table">
+                <div class="tr">
+                    <span class="th"><input type="text" value="Address" readonly/></span>
+                    <span class="th"><input type="text" value="Subject" readonly/></span>
+                    <span class="th"><input type="text" value="Sender" readonly/></span>
+                    <span class="th"><input type="text" value="Body" readonly/></span>
+                    <span class="th"><input type="text" value="Sender Mail" readonly/></span>
+                    <span class="th"><input type="text" value="Time Sent"</span>
+                    <span class="th"><input type="text" value="ID" readonly/></span>
+                    <!--<th>Time Received</th>
+                    <<span class="th">Detail</span>
+                    <span class="th">Archive</span>-->
+                </div><br>
+                {% for email in emails %}
+                    <form id="form{{ forloop.counter }}" class="td" action='/archive/' method="post">
+                        {% csrf_token %}
+                        <span class="td"><input form="form{{ forloop.counter }}" name="Address" type="text" value="{{ email.0 }}" readonly/></span>
+                        <span class="td"><input form="form{{ forloop.counter }}" name="Subject" type="text" value="{{ email.3 }}" readonly/></span>
+                        <span class="td"><input form="form{{ forloop.counter }}" name="Sender" type="text" value="{{ email.2 }}" readonly/></span>
+                        <span class="td"><input form="form{{ forloop.counter }}" name="Body" type="text" value="{{ email.5 }}" readonly/></span>
+                        <span class="td"><input form="form{{ forloop.counter }}" name="Sender_Mail" type="text" value="{{ email.6 }}" readonly/></span>
+                        <span class="td"><input form="form{{ forloop.counter }}" name="Time" type="text" value="{{ email.1 }}" readonly/></span>
+                        <span class="td"><input form="form{{ forloop.counter }}" name="Id" type="text" value="{{ email.4 }}" readonly/></span>
+                        <!--<td>{{ email.1 }}</td>-->
+                        <span class="td"><input type="button" value="Detail" onClick="show('detail_{{ forloop.counter }}')"/></span>
+                        <span class="td"><input form="form{{ forloop.counter }}" type="submit" name="Archive{{ forloop.counter }}" value="Archive"/></span>
+                    </form><br>
+                {% endfor %}
+            </div>
+            {% for email in emails %}
+                <div id="detail_{{ forloop.counter }}" class="hide">
+                    <h1>Detail</h1>
+                    <p1>Body: {{ email.5 }}</p1>
+                    <input type="button"  value="Back" onClick="show('detail_{{ forloop.counter }}')"
+                </div>
+            {% endfor %}
+                </div>
+        </div>
+    </div>
+    {% if accounts|length > 0 and emails|length > 1%}
+         <div id="address">
+    {% else %}
+        <div id="none">
+    {%endif %}
+        <ul>
+            {% for account in accounts %}
+                <li>{{ account }}</li>
+            {% endfor %}
+        </ul>
+        
+        {% block main %}
+            <div>
+                <h3>Connect your Google account</h3>
+                 <p>
+               <ul>
+               {% if user and not user.is_anonymous %}
+                 <li>
+                   <a>Hello {{ user.get_full_name|default:user.username }}!</a>
+                 </li>
+                 <li>
+                   <a href="{% url 'auth:logout' %}?next={{ request.path }}">Logout</a>
+                 </li>
+               {% else %}
+                 <li>
+                  <!-- <a href="{% url 'social:begin' 'google-oauth2' %}?next={{ request.path }}">Connect with Google</a> -->
+                  <a href="/gmail_login_request/">Connect</a>
+                 </li>
+               {% endif %}
+               </ul>
+             </p>
+             </div>
+            {% endblock %}
+        
+        
+        
+        <form>
+            {% csrf_token %}
+            <input type="button" value="Logout" onclick="window.location.href='/logout/'"> 
+        </form>
+        
+        <form>
+            {% csrf_token %}
+            <input type="button" value="Home" onclick="window.location.href='/'"> 
+        </form>
+            
+    
+        <form  action="/search/" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+              <label for="query">Query:</label>
+              <input type="text" class="form-control" id="query" placeholder="Enter query" name="query">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+</body>
+</html>

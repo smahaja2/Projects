@@ -1,0 +1,34 @@
+#main {
+    margin-left: 300px;
+}
+#center{
+    visibility:visible;
+    float: right;
+    width: 100%;
+}
+#address {
+    visibility:visible;
+    float: left;
+    width: 300px;
+    margin-left: -300px;
+    position:absolute;
+    top:0px;
+}
+
+#none {
+    top:0px;
+}
+
+.show {
+    visibility:visible;
+    position:absolute;
+    top:0px;
+}
+
+.hide{
+    visibility:collapse
+    
+}
+
+
+

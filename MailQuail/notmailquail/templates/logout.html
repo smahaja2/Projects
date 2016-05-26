@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>You have been logged out.</h2>      
+        <p>You can use the link below to log back in to your account.</p>      
+      </div>
+        <form role="form" action="/logback/" method="post">
+             {% csrf_token %}
+   
+             <button type="submit" class="btn btn-primary btn-lg">Log Back In</button>
+        </form>  
+    </div>
+  </body>
+</html>
