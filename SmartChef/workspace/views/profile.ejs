@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body        { padding-top:80px; word-wrap:break-word; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
+        <%  if(session.lastMessage != ''){ %>
+        <h2><%= session.lastMessage %></h2>
+        <% session.lastMessage = ''; %>
+        <% } %>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> Local</h3>
+
+                    <p>
+                        <strong>id</strong>: <%= user._id %><br>
+                        <strong>email</strong>: <%= user.local.email %><br>
+                        <strong>password</strong>: <%= user.local.password %>
+                        <strong>fbid</strong>: <%= user.facebook.id %>
+                    </p>
+
+            </div>
+            <div class="well">
+                <a href="/uploadRecipe" class="btn btn-default">Upload a Recipe</a>
+                <a href="/editRestrictions" class="btn btn-default">Edit Restrictions</a>
+                <a href="/search" class="btn btn-default">Search By Ingredients</a>
+                <a href="/findUser" class="btn btn-default">Find User</a>
+                <a href="/inbox" class="btn btn-default">Messages</a>
+                <a href="/myRecipes" class="btn btn-default">My Recipes</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

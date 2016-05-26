@@ -1,0 +1,36 @@
+{
+  "name": "smartchef",
+  "main": "server.js",
+  "dependencies": {
+    "async": "~0.2.8",
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.0.0",
+    "chai": "~1.10.0",
+    "chai-webdriver": "~1.1.0",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.0.0",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "express-session": "~1.0.0",
+    "frisby": "~0.8.5",
+    "has-flag": "^1.0.0",
+    "jasmine-node": "~1.14.5",
+    "method-override": "~1.0.0",
+    "mocha": "~2.1.0",
+    "mongoose": "~3.8.1",
+    "morgan": "~1.0.0",
+    "passport": "~0.1.17",
+    "passport-facebook": "~1.0.2",
+    "passport-google-oauth": "~0.1.5",
+    "passport-local": "~0.1.6",
+    "passport-twitter": "~1.0.2",
+    "socket.io": "~0.9.14",
+    "supports-color": "^3.1.2",
+    "zombie": "^3.1.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6"
+  }
+}

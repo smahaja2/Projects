@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body { 
+            padding-top:80px; 
+            word-wrap:break-word; 
+            
+        }
+        
+        .well {
+            width: 50%;
+            margin: 0 auto;
+        }
+        ul { 
+            padding: 1em; 
+            
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6" style="width:100%;">
+            <div style="margin-left:40%;">
+                <% if(message) { %>
+                    <h4>From:</h3>
+                    <%= message.name%>
+                    <h4>Title:</h3>
+                    <%= message.title%>
+                    <h4>Time:</h3>
+                    <%= message.time%>
+                    <h4>Message:</h3>
+                    <p><%= message.message%></p>
+                </br>
+                <% } %>
+                </br>
+                <a style="margin-top:.5em;" href="/inbox" class="btn btn-default">Back to Inbox</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body { 
+            padding-top:80px; 
+            word-wrap:break-word; 
+            
+        }
+        
+        .well {
+            width: 50%;
+            margin: 0 auto;
+        }
+        ul { 
+            padding: 1em; 
+            
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-user"></span> User Information</h1>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6" style="width:100%;">
+            <div style="margin-left:40%;">
+                <% if(userdata) { %>
+                    <h3>Name:</h3>
+                    <%= userdata.Name%>
+                    <h3>Email:</h3>
+                    <%= userdata.email%>
+                </br>
+                <a style="margin-top:.5em;" href="/send/<%= userdata.user_id%>" class="btn btn-default">Send a Message</a>
+                <% } %>
+                </br>
+                <a style="margin-top:.5em;" href="/profile" class="btn btn-default">Back to Profile</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

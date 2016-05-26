@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>Welcome to SmartChef!</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body { 
+            padding-top:80px; 
+        }
+        .row {
+            margin-top: .4em;
+            width: 100%;
+            margin-left:0%;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        .element {
+            float: left; 
+            width: 33%;
+        }
+        .outside {
+            width: 100%;
+            margin-left:0%;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        .inside {
+            float: left; 
+            width: 33%;
+        }
+        #remove {
+            margin-top:.4em;
+        }
+    </style>
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+    
+        <div class="col-sm-6 col-sm-offset-3">
+        
+            <h1>My Recipes</h1>
+                <ul>
+                    <% if(ret) { %>
+                    <%  for(var i=0;i<ret.length;i++){ %>
+                    <li><a href="/<%= ret[i]['recipe_id'] %>"><%= ret[i]['recipe_name'] %></a></li>
+                    <% } %>
+                    <% } %>
+                </ul>
+            
+            
+            <a href="/profile" class="btn btn-default">Back to Profile</a>
+            
+        </div>
+    
+    
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <title>Comments</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+  <style>
+    p { 
+    	font-family: Geneva; 
+    	font-size: 2em; 
+    	line-height: 1.5em; 
+    	margin-bottom: 3empx; 
+    	font-weight: normal; 
+    	color: fff; 
+    }
+    body { 
+    	background: #fff; 
+    	font-size: 62.5%; line-height: 1; 
+    	font-family: Arial, sans-serif; 
+    	padding-bottom: 69px; 
+    }
+    
+    h1 { 
+    	font-family: Geneva; 
+    	font-size: 3.8em; 
+    	color: #000;
+    }
+    #board { 
+    	display: block; 
+    	width: 700px; 
+    	margin: 0 auto; 
+    	padding-top: 35px;
+    }
+    
+    #container { 
+      display: block; 
+      width: 100%; 
+      background: #fff; 
+      padding: 14px 20px; 
+      -webkit-border-radius: 4px; 
+      -moz-border-radius: 4px; 
+      border-radius: 4px;
+      border-style: solid;
+      border-color: #ccc;
+      border-width: 1.2em;
+      
+    }
+    #comments { 
+    	display: block; 
+    }
+    #comments .cmmnt .replies { 
+    	margin-bottom: 3em; 
+    }
+    #comments .cmmnt, ul .cmmnt, ul ul .cmmnt { 
+    	display: block; 
+    	position: relative; 
+    	border-top: 1px solid #000; 
+    }
+    #comments .cmmnt .cmmnt-content { 
+    	padding: 0px 3px; 
+    	padding-bottom: 12px; 
+    	padding-top: 8px; 
+    }
+    #comments .cmmnt .cmmnt-content header { 
+    	font-size: 1.3em; 
+    	display: block; 
+    	margin-bottom: 8px; 
+    }
+  </style>
+ 
+</head>
+ 
+<body>
+	
+  <div id="board">
+    <% if(ret[0]) { %>
+ 	  <h1><%= ret[0]['recipe_name']%></h1>
+ 	  <h3>Created by: <%= ret[0]['Name']%></h3>
+ 	  
+    
+ 	  
+ 	  
+ 	  <h3>Instructions:</h3>
+ 	  <p><%= ret[0]['instructions']%></p>
+ 	  <% } %>
+ 	
+ 	
+    <h1>Comments</h1>
+    <div>
+      <h3>Enter a comment</h3>
+      <form  id="submitComment" action="/<%= recipeNum %>" method="post">
+        Enter comment below:</br>
+        <textarea rows="4" cols="50" name="message" id = 'message' form="submitComment" ></textarea>
+        <input type='submit' id = 'submit' name ='submit' value='Submit' />
+      </form>
+      
+    </div>
+    </br></br>
+    <div id="container">
+       
+      <!--the master list of comments-->
+      <ul id="comments" data-role="listview">
+                <% if(ret) { %>
+                <%  for(var i=0;i<ret.length;i++){ %>
+                <li class="cmmnt"><div class="cmmnt-content"><h2>
+                <%= ret[i]['username'] %> said:</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;
+                <%= ret[i]['message'] %></p></li>
+                <% } %>
+                <% } %>
+      </ul>
+    </div>
+    </br></br>
+    <a href="/profile" class="btn btn-default">Back to Profile</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <title>Smart Chef</title>
+
+    <style> 
+        body {
+            background-image: url("http://lorempixel.com/400/200/food/") , url("http://lorempixel.com/400/200/food/");
+            background-color: #cccccc;
+        }
+    </style>
+    <script src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('search', '1');
+        google.setOnLoadCallback(OnLoad);
+        var search;
+    
+        //i suggest instead of this to make keywords list so first to pick random keyword than to do search and pick random image
+        var keyword = 'food photography';
+    
+        function OnLoad()
+        {
+            search = new google.search.ImageSearch();
+    
+            search.setSearchCompleteCallback(this, searchComplete, null);
+    
+            search.execute(keyword);
+        }
+    
+        function searchComplete()
+        {
+            if (search.results && search.results.length > 0)
+            {
+                var rnd = Math.floor(Math.random() * search.results.length);
+    
+                //you will probably use jQuery and something like: $('body').css('background-image', "url('" + search.results[rnd]['url'] + "')");
+                document.body.style.backgroundImage = "url('" + search.results[rnd]['url'] + "')";
+                $('body').css('background-image', "url('" + search.results[rnd]['url'] + "')");
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron text-center">
+        <h1><span class="fa fa-lock"></span>Welcome to SmartChef!</h1>
+
+        <p>Login or Register with:</p>
+
+        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
+        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+         <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
+    </div>
+
+</div>
+</body>
+</html>

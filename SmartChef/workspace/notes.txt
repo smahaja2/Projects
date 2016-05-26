@@ -1,0 +1,228 @@
+var id;
+module.exports = function(app, passport) {
+    
+    // =====================================
+    // HOME PAGE (with login links) ========
+    // =====================================
+    app.get('/', function(req, res) {
+        res.render('index.ejs'); // load the index.ejs file
+    });
+
+    // =====================================
+    // LOGIN ===============================
+    // =====================================
+    // show the login form
+    app.get('/login', function(req, res) {
+
+        // render the page and pass in any flash data if it exists
+        res.render('login.ejs', { message: req.flash('loginMessage') }); 
+    });
+
+    // process the login form
+    app.post('/login', passport.authenticate('local-login', {
+        successRedirect : '/profile', // redirect to the secure profile section
+        failureRedirect : '/login', // redirect back to the signup page if there is an error
+        failureFlash : true // allow flash messages
+    }));
+
+    // =====================================
+    // SIGNUP ==============================
+    // =====================================
+    // show the signup form
+    app.get('/signup', function(req, res) {
+
+        // render the page and pass in any flash data if it exists
+        res.render('signup.ejs', { message: req.flash('signupMessage') });
+    });
+
+    // process the signup form
+    app.post('/signup', passport.authenticate('local-signup', {
+        successRedirect : '/profile', // redirect to the secure profile section
+        failureRedirect : '/signup', // redirect back to the signup page if there is an error
+        failureFlash : true // allow flash messages
+    }));
+
+    // =====================================
+    // PROFILE SECTION =====================
+    // =====================================
+    // we will want this protected so you have to be logged in to visit
+    // we will use route middleware to verify this (the isLoggedIn function)
+    app.get('/profile', isLoggedIn, function(req, res) {
+        res.render('profile.ejs', {
+            user : req.user // get the user out of session and pass to template
+        });
+    });
+
+  
+    // =====================================
+    // LOGOUT ==============================
+    // =====================================
+    app.get('/logout', function(req, res) {
+        req.logout();
+        res.redirect('/');
+    });
+    
+    // =====================================
+    // USER SEARCH =========================
+    // =====================================
+    // we will want this protected so you have to be logged in to visit
+    router.get('/', function(req, res, next) {
+        //gets cookie information for user_id from request
+    	var userID = getUserID(req);
+    
+        var query = mysql.format('SELECT events.id, events.name, events.organizer_id, users.name AS organizer_name , events_users.is_confirmed ' +
+                                 'FROM ' + db.events_table + ' ' +
+                                     'JOIN ' + db.events_users_table + ' ON events.id = events_users.event_id ' +
+                                     'JOIN ' + db.users_table + ' ON events.organizer_id = users.id ' +
+                                 'WHERE events_users.guest_id = ' + userID);
+    
+        connection.query(query, function(err, rows, fields) {
+    	    if (err) throw err;
+    
+            // Helpful for testing purposes only
+            var user = req.user;
+            if(user == null){
+                user = {id: 500};
+            }
+    		res.render('events/events', {
+                title: 'Your Events',
+                events: rows,
+                user: user
+            });
+        });
+    });
+    
+    // =====================================
+    // FB ROUTES ===========================
+    // =====================================
+    // route for facebook authentication and login
+    app.get('/auth/facebook', passport.authenticate('facebook', { scope : 'email' }));
+
+    // handle the callback after facebook has authenticated the user
+    app.get('/auth/facebook/callback',
+        passport.authenticate('facebook', {
+            successRedirect : '/profile',
+            failureRedirect : '/'
+        }));
+
+    // route for logging out
+    app.get('/logout', function(req, res) {
+        req.logout();
+        res.redirect('/');
+    });
+    
+    // =====================================
+    // MY RECIPES ==========================
+    // =====================================
+    // show all recipes the user has uploaded
+    app.get('/myRecipes', function(req, res) {
+        res.render('myRecipes.ejs'); // load the myRecipes.ejs file
+    });
+    
+    // =====================================
+    // FIND USER ===========================
+    // =====================================
+    // find users by username
+    app.get('/findUser', function(req, res) {
+        res.render('findUser.ejs'); // load the findUser.ejs file
+    });
+    
+    
+    // =====================================
+    // UPLOAD RECIPE =======================
+    // =====================================
+    // show the recipe upload form
+    app.get('/uploadRecipe', isLoggedIn, function(req, res) {
+        res.render('uploadRecipe.ejs');
+    });
+    
+    app.post('/addRecipe', function(req, res) {
+        
+         var mysql      = require('mysql');
+         var connection = mysql.createConnection({
+          host     : 'localhost',
+          user     : 'team',
+          password : 'password',
+          database : 'smartchef'
+        });
+        
+       
+        connection.connect();
+        
+        
+        
+        //If the user signed up with facebook.
+        var sql1;
+        if(req.user.facebook!=undefined & req.user.facebook!=null ){
+                
+                
+                    sql1 = 'select user_id from USERS where fbid IS NOT NULL AND fbid = '+req.user.facebook.id;
+
+        }
+        else {
+                //the user has not signed up with facebook. So we find user id by email
+            
+                    sql1 = 'select user_id from USERS where email = \''+req.user.local.email+'\'';
+                      
+        }
+        console.log(sql1);
+        
+        
+        var lock = 1;
+        var userIDS = [];
+        var sql;
+             console.log('before');
+             connection.query(sql1)
+            .addListener('row', function(r) {
+               userIDS.push( { user_id: r.user_id } );
+            })
+            .addListener('result', function(r) {
+                
+                req.session.logged_user_id = userIDS.user_id;
+                lock -= 1;
+    
+                if (lock == 0) {
+                    
+                    finishRequest();
+                }
+            }); 
+            
+             var finishRequest = function() {
+             sql = 'insert into user_recipes (user_id, recipe_name, create_date, instructions) values (' + req.session.logged_user_id + ',\''+req.body.recipeName+'\',NOW(),'+'\''+req.body.message+'\')';
+             connection.query('insert into user_recipes (user_id, recipe_name, create_date, instructions) values (' + req.session.logged_user_id + ',\''+req.body.recipeName+'\',NOW(),'+'\''+req.body.message+'\')', function(err, rows, fields) {
+                      if (!err){
+                        console.log('rows:'+rows[0].user_id);
+                        id = rows[0].user_id;
+                        console.log('id:'+id);
+                      }
+                      else
+                        console.log('Error while inserting recipe ' + err);
+                    });
+            connection.end();
+            res.redirect('/profile');
+        }
+    
+        
+        
+        
+      
+    
+    });
+};
+
+    
+    
+    
+    
+    
+// route middleware to make sure a user is logged in
+function isLoggedIn(req, res, next) {
+
+    // if user is authenticated in the session, carry on 
+    if (req.isAuthenticated())
+        return next();
+
+    // if they aren't redirect them to the home page
+    res.redirect('/');
+}
+

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <title>Welcome to SmartChef!</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body { 
+            padding-top:80px; 
+        }
+        .row {
+            margin-top: .4em;
+            width: 100%;
+            margin-left:0%;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        .element {
+            float: left; 
+            width: 33%;
+        }
+        .outside {
+            width: 100%;
+            margin-left:0%;
+            margin-top:4em;
+            margin-bottom:4em;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        .inside {
+            float: left; 
+            width: 33%;
+        }
+        #remove {
+            margin-top:.4em;
+        }
+    </style>
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+    
+        <div class="col-sm-6 col-sm-offset-3">
+            
+            <h1> Edit Dietary Restrictions</h1>
+            <h3>Your current restrictions are: </h3>
+            <ul>
+                <% if(allergens) { %>
+                <%  for(var i=0;i<allergens.length;i++){ %>
+                <li><%= allergens[i] %></li>
+                <% } %>
+                <% } %>
+            </ul>
+            <form id="restrictionsForm" action="/editRestrictions" method="post">
+                <div class="outside">
+                    <div class="inside">
+                        <h5>Allergies:</h5>
+                        <input id="nuts" type='checkbox' value='1' name='nuts'> Nuts</br>
+                        <input id="eggs" type='checkbox' value='1' name='eggs'> Eggs</br>
+                        <input id="fish" type='checkbox' value='1' name='fish'> Fish</br>
+                        <input id="shellfish" type='checkbox' value='1' name='shellfish'> Shellfish</br>
+                        <input id="milk" type='checkbox' value='1' name='milk'> Milk</br>
+                        <input id="soy" type='checkbox' value='1' name='soy'> Soy</br>
+                        <input id="corn" type='checkbox' value='1' name='corn'> Corn</br>
+                        <input id="wheat" type='checkbox' value='1' name='wheat'> Wheat</br>
+                    </div>
+                    <div class="inside">
+                        <h5>Dietary Practices:</h5>
+                        <input id="vegetarian" type='checkbox' value='1' name='vegetarian'> Vegetarian</br>
+                        <input id="vegan" type='checkbox' value='1' name='vegan'> Vegan</br>
+                        <input id="kosher" type='checkbox' value='1' name='kosher'> Kosher</br>
+                        <input id="halaal" type='checkbox' value='1' name='halaal'> Halaal</br>
+                    </div>
+                    
+                </div>
+                <button type="submit" class="btn btn-warning btn-lg">Submit</button>
+            </form>
+            </br>
+            <a href="/profile" class="btn btn-default">Back to Profile</a>
+        </div>
+        
+    
+        
+    </div>
+</body>
+
+
+</html>
